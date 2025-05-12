@@ -1,0 +1,221 @@
+/*Page header styling*/
+.header{
+    border: 5px solid grey;
+    border-radius: 15px;
+    font-size: 140%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.header table{
+    margin: auto;
+}
+
+.header th{
+    padding-right: 40px;
+}
+
+/*Page titles styling*/
+.title{
+    text-align: center;
+    background-color: white;
+    border: 5px solid grey;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5px;
+    font-size: 130%;
+}
+
+/*Main body formatting for most pages with the silly square and what not*/
+.mainBody{
+    border: 5px solid grey;
+    width: 50%;
+    margin: auto;
+    font-size: 120%;
+    background-color: white;
+    margin-bottom: 5px;
+    text-align: center;
+    /* display: inline-block; */
+}
+
+/*Footer styling*/
+.footer{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    font-size: 120%;
+    font-weight: bold;
+    /*padding-left: 40px;*/
+    /*display: inline-block;*/
+}
+
+.leftOne{
+    float: left;
+}
+
+.rightOne{
+    float: right;
+}
+
+/*This is all the stuff for the TOC*/
+#TOC{
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* Image carousel stuff */
+.imgAndText{
+    margin: auto;
+    text-align: center;
+}
+
+.splide__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#image-carousel{
+    width: 50%;
+    margin: auto;
+    height: 100%;
+}
+
+.splide{
+    border: 5px solid grey;
+    background-color: white;
+}
+
+/*page backgrounds*/
+#chunk3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/island.png');
+}
+
+#FC7{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/crown.png');
+}
+
+#FC6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/clovers.png');
+}
+
+#FC1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/logo.png');
+}
+
+#treatment{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/brainstorm.png');
+}
+
+#FC5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/trash.png');
+}
+
+#almostMaine{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/bench.png');
+}
+
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/home.png');
+}
+
+#exposition{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/jester.png');
+}
+
+#MGRP{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/unhappy.png');
+}
+
+#play{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/take\ a\ number.png');
+}
+
+#chunk1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/pizza.png');
+}
+
+#chunk2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/rad.png');
+}
+
+#chunk4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/cut\ board.png');
+}
+
+#closureLetter{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/looney.png');
+}
+
+#coverage{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/tub.png');
+}
+
+#screenplay{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Backgrounds/carpet.png');
+}
+
+/* images no carousel */
+.imageInBody{
+    width: 50%;
+    margin: auto;
+}
+
+.mainBody img{
+    object-fit: contain;
+    width: 100%;
+    /* margin: auto; */
+}
+
+/* funny fire for MGRP */
+.title img{
+    margin: auto;
+    width: 100%;
+    object-fit: fill;
+}
+
+/* button shtuff */
+.footer{
+    font-size: 150%;
+}
+
+.footer .leftOne{
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: red;
+}
+
+a .leftOne{
+    color: black;
+}
+
+.footer .rightOne{
+    border: 5px solid rgb(68, 255, 68);
+    border-radius: 10px;
+    background-color: rgb(68, 255, 68);
+}
+
+a .rightOne{
+    color: black;
+}
+
+/* basic shit */
+
+ul{
+    display: inline-block; 
+    text-align: left;
+    font-weight: bold;
+}
+
+div{
+   margin-bottom: 15px; 
+   /* margin: auto; */
+}
+
+body{
+    font-weight: bold;
+    font-family: Tahoma, sans-serif;
+}
